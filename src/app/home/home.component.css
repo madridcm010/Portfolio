@@ -19,8 +19,7 @@
 .profilepic {
   flex: 1;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: flex-end;
   animation: fadeInRight 1s ease-in-out;
 }
 
@@ -34,7 +33,7 @@
  .btn{
     border:none;
     display:inline-block;
-    padding:1.2rem 2.8rem;
+    padding:1.2rem 1.5rem;
     background:var(--harvestgold);
     border-radius:4rem;
     border-color:var(--harvestgold);

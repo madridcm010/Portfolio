@@ -1,6 +1,6 @@
 section{
     min-height:100%;
-    padding:10rem 9% 0rem;
+    padding:10rem 0% 0rem;
     max-width: 100%;
     display:flex; 
 }
@@ -19,15 +19,16 @@ section{
 }
 .cards{
     justify-content:center;
-    gap:15%;
-    align-items: flex-start;
+    align-items: center;
     height:85vh;
     width:100vw;
+
     
 }
 img{
     box-shadow: 0 0 25px var(--romancoffee); 
     transition: .5s ease;
+    
 }
 img:hover{
     box-shadow: 0 0 25px var(--harvestgold);
@@ -40,10 +41,11 @@ h1{
 @media screen and (max-width:1600px){
     .cards{
         display:grid;
-        grid-template-columns: repeat(2, .5fr);
+        grid-template-columns: repeat(2, 1fr);
         grid-template-rows: repeat(2, 1fr);
+        place-items:center;
     }
     h1{
-        text-align:center
+        text-align:center;
     }
 }
