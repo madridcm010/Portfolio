@@ -38,9 +38,10 @@ ul{
   justify-content: space-between;
   align-items: center;
   padding: 20px;
-  background-color: transparent;
+  background-color:rgba(--mirage,.5);
   position: sticky;
   top:0;
+  z-index: 1000;
 }
 .menu-toggle {
   display: none;
